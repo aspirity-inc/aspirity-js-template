@@ -1,0 +1,6 @@
+/bower_components
+/public
+/lib/bower
+*.log
+node_modules
+/.idea

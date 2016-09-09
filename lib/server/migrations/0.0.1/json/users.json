@@ -1,0 +1,16 @@
+[
+  {
+    "password": "2LUZ2VzX82pOFHOptp5Q",
+    "email": "what@bla.com",
+    "title": "Совушка",
+    "role": "admin",
+    "login": "admin"
+  },
+  {
+    "password": "iqn63VkAAy9buJJ0lTE2",
+    "email": "bla@bla.com",
+    "title": "Лисенька",
+    "role": "user",
+    "login": "user"
+  }
+]

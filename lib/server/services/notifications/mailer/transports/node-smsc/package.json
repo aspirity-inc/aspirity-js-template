@@ -1,0 +1,27 @@
+{
+  "name": "node-smsc",
+  "version": "0.0.3",
+  "engines": [
+    "node>=0.4"
+  ],
+  "description": "Module implements smsc.ru api for sending sms message.",
+  "author": {
+    "name": "Evgeny Reznichenko",
+    "email": "kusakyky@gmaill.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxcabs/node-smsc.git"
+  },
+  "gitHead": "bdba379caedb3ec2bb540adc54db13f3c13cd5ff",
+  "readme": "Module implements smsc.ru api for sending sms message.\r\n=====================================================\r\n\r\nfirst:\r\n------\r\n    var Sms = require('node-smsc').Smsc,\r\n        sms = new Sms('login', 'password');\r\n\r\nexample 1:\r\n---------\r\n\r\n    sms.list({phone: '7911111111', text: 'text msg'}, function (err, result) {\r\n        console.log('Error: %s, result: %s', err, result);\r\n    });\r\n    \r\n\r\nexample 2:\r\n----------\r\n\r\n    sms.list({phone: ['7911111111', '79222222222'], text: 'text msg'}, function (err, result) {\r\n        console.log('Error: %s, result: %s', err, result);\r\n    });\r\n\r\nexample 3:\r\n----------\r\n\r\n    sms.list({phone: '7911111111,79222222222', text: 'text msg'}, function (err, result) {\r\n        console.log('Error: %s, result: %s', err, result);\r\n    });\r\n\r\nexample 4:\r\n----------\r\n\r\n    sms.list([{phone: '7911111111', text: 'text msg 1'}, {phone: '79222222222', text: 'text msg 2'}] function (err, result) {\r\n        console.log('Error: %s, result: %s', err, result);\r\n    });\r\n\r\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/zxcabs/node-smsc/issues"
+  },
+  "homepage": "https://github.com/zxcabs/node-smsc#readme",
+  "_id": "node-smsc@0.0.3",
+  "_shasum": "1c3972901266f64cc5da058650cd3d4f8809b4df",
+  "_from": "git+https://github.com/zxcabs/node-smsc.git",
+  "_resolved": "git+https://github.com/zxcabs/node-smsc.git#bdba379caedb3ec2bb540adc54db13f3c13cd5ff"
+}

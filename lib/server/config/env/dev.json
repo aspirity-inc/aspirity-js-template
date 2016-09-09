@@ -1,0 +1,15 @@
+{
+  "db": {
+    "uri": "mongodb://template.cloudapp.net/template-dev"
+  },
+  "http": {
+    "session": "mongodb",
+    "port": 3000
+  },
+  "rabbit": {
+    "url": "amqp://template.cloudapp.net",
+    "queueTaskName": "dev"
+  },
+  "appMode": "all",
+  "version": "0.0.1.0"
+}
