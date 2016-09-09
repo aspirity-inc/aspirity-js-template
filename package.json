@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/aspirity/aspirityjstemplate.git"
+    "url": "https://github.com/aspirity-ru/aspirity-js-template.git"
   },
   "author": "Aspirity LTD",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/aspirity/aspirityjstemplate#readme",
+  "license": "MIT",
+  "homepage": "https://github.com/aspirity-ru/aspirity-js-template#aspirity-js-template",
   "engines": {
     "node": ">=4.2.0"
   },

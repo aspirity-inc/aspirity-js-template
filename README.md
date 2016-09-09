@@ -18,7 +18,7 @@ Docker, Node.js, Express.js, MongoDB, RabbitMQ, Nginx, Bluebird
 * Clone repository (or download as ZIP)  
 * Run `npm i` in project's root directory  
 * Set MongoDB uri and RabbitMQ url for appropriated environment configuration file in `/lib/server/config/env` directory (default file is `dev-local.json`)  
-* Run server  
+* Run server (using `/lib/server/app.js` as startup file)
   
 ## Future improvements:  
 * Token authorization  
